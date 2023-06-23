@@ -44,3 +44,10 @@ h3 {
     background-position: 100% 50%;
   }
 }
+#KORN {
+  width: 200px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
