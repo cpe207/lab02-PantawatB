@@ -1,0 +1,46 @@
+h3 {
+  text-align: center;
+  color: rgb(0, 118, 30);
+  font-size: italic;
+}
+.skill-header {
+  text-align: left;
+}
+.skill-container {
+  border: solid lightcoral;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 16px;
+  margin-bottom: 8px;
+}
+.mid {
+  text-align: center;
+}
+
+.color {
+  font-size: 72px;
+  font-weight: bold;
+  background: linear-gradient(
+    45deg,
+    #e63946,
+    #faf3dd,
+    #a8dadc,
+    #457b9d,
+    #1d3557
+  );
+  background-size: 40%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: gradient 5s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
