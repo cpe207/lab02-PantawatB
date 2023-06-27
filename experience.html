@@ -1,32 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <title>Experience</title>
-    <div class="color mid"
-    <h3>My Portfolio</h3>
-    </div>
-    <div class="mid">
-        <a href="index.html">HOME | </a>
-        <a href="experience.html">Experience | </a>
-        <a href="contact.html">contact me!</a>
-  </div>
-  </head>
-  <body style="background-color: antiquewhite;">
-    <img src="Student.jpg" alt="" id="KORN">
-      <p style="text-align: center;"> My name is Pantawat Boonchaloey. <br/>
-        Nice to meet you all. <br /></p>
-      <h3>Skills</h3>
-      <div class="skill-container">
-        <h3 class="skill-header">Freetimes</h3>
-        <P>Play drum🥁 | listen to music🎶 | Play video game🎮</P>
-      </div>
-      <div class="skill-container">
-        <h3 class="skill-header">Sports</h3>
-        <P>Badminton🏸💪</P>
-      </div>
 
+    <div class="color px-3 p-1">My Portfolio</div>
+    <div class="position-absolute top-0 end-0 py-2 px-3">
+      <nav>
+        <button
+          class="d-none d-sm-block border-dark border-2 rounded-3 p-1 px-2"
+        >
+          <a href="index.html">HOME |</a>
+          <a href="experience.html">Experience |</a>
+          <a href="Gallery.html">Gallery |</a>
+          <a href="contact.html">contact me!</a>
+        </button>
+        <button class="d-sm-none btn btn-dark">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="icon icon-tabler icon-tabler-menu-2"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            stroke-width="2"
+            stroke="currentColor"
+            fill="none"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+            <path d="M4 6l16 0"></path>
+            <path d="M4 12l16 0"></path>
+            <path d="M4 18l16 0"></path>
+          </svg>
+        </button>
+      </nav>
+    </div>
+  </head>
+  <body style="background-color: rgb(255, 255, 255)">
+    <div class="p-3 container_mid">
+      <div
+        class="border border-dark border border-2 rounded-3 p-3"
+        style="max-width: 40rem"
+      >
+        <div class="d-flex gap-3 align-items-center">
+          <img
+            src="image/student_sq.jpg"
+            width="150px"
+            height="150px"
+            class="rounded-circle border border-5"
+          />
+          <div class="">
+            <div class="fw-bold d-none d-sm-block">
+              <h5>Pantawat Boonchaloey</h5>
+            </div>
+            <div class="text-muted d-none d-sm-block">
+              My name is Korn. Nice to meet you!! I'm studying computer
+              engineering
+            </div>
+          </div>
+        </div>
+        <div class="my-2 fw-bold d-sm-none"><h5>Pantawat Boonchaloey</h5></div>
+      </div>
+    </div>
+    <h3>Skills</h3>
+    <div class="skill-container">
+      <h3 class="skill-header">Freetimes</h3>
+      <p>Play drum🥁 | listen to music🎶 | Play video game🎮</p>
+    </div>
+    <div class="skill-container">
+      <h3 class="skill-header">Sports</h3>
+      <p>Badminton🏸💪</p>
+    </div>
+  </body>
 </html>

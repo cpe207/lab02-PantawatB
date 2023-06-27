@@ -17,9 +17,11 @@ h3 {
 .mid {
   text-align: center;
 }
-
+.right {
+  text-align: right;
+}
 .color {
-  font-size: 72px;
+  font-size: 30px;
   font-weight: bold;
   background: linear-gradient(
     45deg,
@@ -50,4 +52,17 @@ h3 {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+.container_mid {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  text-decoration: none;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  color: rgb(14, 72, 138);
 }
